@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import { useEffect, useState } from "react";
 
 export default function Navbar() {
@@ -49,7 +51,13 @@ export default function Navbar() {
                         window.scrollTo({ top: 0, behavior: "smooth" });
                     }}
                 >
-                    EF
+                    <Image
+                        src="/favicon-ezrastudio.png"
+                        alt="EF Logo"
+                        width={36}
+                        height={36}
+                        className="navbar-logo-image"
+                    />
                 </a>
 
                 <div className="navbar-links">
