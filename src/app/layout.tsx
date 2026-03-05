@@ -21,6 +21,9 @@ export const metadata: Metadata = {
             "Backend Engineer specializing in scalable system design and high-performance services.",
         type: "website",
     },
+    icons: {
+        icon: "/favicon-ezrastudio.png",
+    },
 };
 
 export default function RootLayout({
